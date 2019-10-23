@@ -20,6 +20,8 @@ public class Main {
 
     static String[] partiesNameLong = {"Liberal Party of Canada", "Conservative Party of Canada", "New Democratic Party", "Green Party of Canada", "Bloc Québécois", "Communist Party of Canada"};
 
+    static String[] randomNames = {"Emilis","Mcarthur", "Eesa","Singh", "Rick","Mercado", "Rhea","Moran", "Gurpreet","Le", "Emre","Burt", "Milton","Robles", "Ellen","Stephenson", "Rheanna","Horn", "Rayhaan","Duncan", "Lachlan","Lennon", "Efa","Kline", "Chance","Fischer", "Finley","Mcnally", "Emile","Dixon", "Franky","Bond", "Hannah","Fletcher", "Jeanette","Curry", "Misbah","Mcghee", "Bonnie","Patterson", "Mujtaba","Estes", "Ihsan","Fenton", "Siddharth","Wilks", "Hugo","Stein", "Joann","Baxter", "Zaine","Reynolds", "Daniyal","Sims", "Kynan","Pritchard", "Melanie","Bourne", "Chelsy","Crane", "Harri","Irvine", "Rianne","Prince", "Kellie","Burn", "Indiana","Blackburn", "Donte","Melendez", "Lorcan","Welch", "Frances","Hansen", "Jules","Owen", "Andre","O'Connor", "Harley","Curtis", "Tyler-James","Walter", "Filip","Ellwood", "Hashir","Ross", "Romany","Williams", "Taliyah","Davie", "Vikram","Haigh", "Darla","Allan", "Ralphy","Hayes", "Isobelle","Gallagher", "Jad","Irving", "Imaan","Khan", "Ewan","Greer", "Vijay","Tanner", "Trystan","Ray", "Shaquille","Timms", "Montana","Paul", "Yisroel","Alston", "Leticia","Moyer", "Ismaeel","Marsden", "Jaheim","Booker", "Jagdeep","Ware", "Shyam","Cooper", "Samera","Mann", "Robyn","Robertson", "Lexi-May","Logan", "Leigh","Mitchell", "Lillie-Mai","Duggan", "Fynn","Carter", "Maurice","Leon", "Beatrix","Esparza", "Isabelle","Summers", "Cristian","Ahmad", "Missy","Fountain", "Alexander","Franklin", "Kylo","Deleon", "Cassia","Villanueva", "Hamish","Currie", "Chelsey","Conley", "Adem","Baldwin", "Haiden","Villarreal", "Madison","Charles", "Persephone","Wickens", "Eamon","Guest", "Rianna","Harrington", "Ava-Grace","Flower", "Kaycee","Vance", "Cameron","Bradshaw", "Myron","Robson", "Kirstin","Salgado", "Jocelyn","Meyers", "Cherie","Phillips", "Keir","Milne", "Teri","Avalos", "Amna","Hutchings", "Benedict","Rayner", "Fatimah","Cox", "Bruce","Pierce", "Yvie","Lin", "Catherine","Sargent", "Najma","Fitzgerald"};
+
     /**
      * Main Method
      * @param args Terminal arguments (Not used)
@@ -104,10 +106,8 @@ public class Main {
         int voterTurnout = (int) (Math.random() * 60)+20;
 
         for (int i = 0; i < ridings; i++) {
-            
+            String mpName = randomNames[(int) (Math.random() * randomNames.length)] + " " + randomNames[(int) (Math.random() * randomNames.length)];
         }
-
-        System.out.println(voterTurnout);
 
         topbar();
         System.out.println("Running an election...");

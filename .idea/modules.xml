@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ics3u0-arrays-project.iml" filepath="$PROJECT_DIR$/ics3u0-arrays-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ics3u0-arrays-project.iml" filepath="$PROJECT_DIR$/.idea/ics3u0-arrays-project.iml" />
     </modules>
   </component>
 </project>
