@@ -29,6 +29,10 @@ public class Main {
         menu();
     }
 
+    /**
+     * Prints the topbar
+     */
+
     static void topbar() {
         System.out.println();
         System.out.println("Elections Canada");
@@ -36,6 +40,10 @@ public class Main {
         System.out.println("====================================================");
         System.out.println();
     }
+
+    /**
+     * Prints the menu
+     */
 
     static void menu() {
         topbar();
@@ -85,7 +93,7 @@ public class Main {
 
     /**
      * Simulates an election
-     * @param vote
+     * @param vote User's vote
      */
 
     static void simulate(int vote) {
