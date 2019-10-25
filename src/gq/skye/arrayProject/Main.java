@@ -117,6 +117,8 @@ public class Main {
     static void simulate(int vote) {
         System.out.println("Running an election...");
 
+        String statusOfGov;
+
         int winningParty = 0;
 
         int ridings = 338;
@@ -139,8 +141,14 @@ public class Main {
             }
         }
 
+        if (partiesSeats[winningParty] >= 170) {
+            statusOfGov = "majority";
+        } else {
+            statusOfGov = "minority";
+        }
+
         topbar();
-        System.out.println("The " + partiesNameLong[winningParty] + " has won with a total of " + votesForParty[winningParty] + " votes!");
+        System.out.println("The " + partiesNameLong[winningParty] + " has won a " + statusOfGov + " government with a total of " + votesForParty[winningParty] + " votes!");
         System.out.println("They have claimed " + partiesSeats[winningParty] + " seats!");
     }
 }
